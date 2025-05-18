@@ -9,10 +9,14 @@ void tugas() {
 
   print("=== Tugas 2 ===");
   // Tugas 2
+  // for (int i = 0; i < 5; i++) {
+  //   stdout.write('*');
+  // }
+  String result = '';
   for (int i = 0; i < 5; i++) {
-    // stdout.write('*');
-    print('*');
+    result += '*';
   }
+  print(result);
 
   print("=== Tugas 3 ===");
   // Tugas 3
